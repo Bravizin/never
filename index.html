@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sai comigo?</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="images/seguindo_red.png">
+</head>
+
+<body>
+    <video autoplay muted loop id="videoBG">
+        <source src="images/chuva.mp4" type="video/mp4">
+        Seu navegador não suporta vídeos em HTML5.
+    </video>
+
+    <div class="main">
+        <div class="container">
+            <img src="images/picachu-removebg-preview.png" alt="picachu">
+            <h1>Olá, *pessoa*</h1>
+            <h2>A senhorita poderia, por gentileza,<br/> sair comigo fim de semana?</h2>
+            <div class="btn-div">
+                <button class="btn btn-sucess" onclick="yes()">CLARO, MINHA MELHOR COMPANHIA</button>
+                <button class="btn btn-failed" onclick="runPlis(this)" onmouseover="runPlis(this)">NÃO</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
